@@ -1,0 +1,110 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+background-image:conic-gradient(lightblue,lightgrey ,white,lightblue,white,lightblue,lightgrey,lightblue 80%);}
+header{
+    padding-top: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .name{
+    padding-left: 0vw;
+    width: 50vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.features :hover{
+    color: blueviolet;
+    transform: scale(1.2);
+}
+header h3{
+    
+    font-size: 30px;
+    color: black;
+    font-family: arial;
+    
+}
+
+header #D{
+    padding-left: 7vw;
+    color: rgb(227, 9, 89);
+}
+
+header #ish{
+    color: rgba(96, 94, 94, 0.96);
+}
+
+header .features{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+.about {
+    padding: 10vh 7vw;
+}
+h2{
+    padding: 3vh 7vw;
+}
+.skills{
+    padding-left: 7vw;
+    padding-top: 2vh;
+    
+}
+.about h1{
+    width: 180px;
+    border: solid 1px black;
+    padding: 1vh 1vw;
+    background-color: black;
+    color: white;
+}
+span{
+    width: 180px;
+    border: solid 1px black;
+    padding: 1vh 1vw;
+    background-color: white;
+    color: black;
+}
+.about #para1{
+    padding-top: 3vh;
+}
+
+.more{
+    padding-left: 7vw;
+}
+#more{
+    
+    text-decoration: none;
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+    padding: 1vh 1vw;
+    
+    
+}
+
+
+.about #para2{
+    padding-top:1vh ;
+}
+
+.about #para1,#para2{
+    font-size: 18px ;
+}

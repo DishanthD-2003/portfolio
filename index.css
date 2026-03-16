@@ -1,0 +1,99 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    background-image:conic-gradient(lightblue,lightgrey ,white,lightblue,white,lightblue,lightgrey,lightblue 90%);
+}
+header{
+    padding-top: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .name{
+    padding-left: 0vw;
+    width: 50vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+header h3{
+    
+    font-size: 30px;
+    color: black;
+    font-family: arial;
+    
+}
+
+header #D{
+    padding-left: 7vw;
+    color: rgb(227, 9, 89);
+}
+
+header #ish{
+    color: rgba(74, 73, 73, 0.96);
+}
+
+header .features{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30vh;
+}
+
+.features :hover{
+    color: blueviolet;
+    transform: scale(1.2);
+}
+
+.home .container1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 50px;
+}
+#role{
+    font-size: 25px;
+}
+#Hire{
+    padding: 40px;
+}
+#KM{
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1vh 1vw;
+}
+#CV,#Hire{
+    font-size: 20px;
+    text-decoration: none;
+    filter: drop-shadow(1px 1px 1px black); 
+}
+.home .container2{
+    
+}
